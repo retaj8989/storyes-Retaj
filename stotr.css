@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+}
+
+body {
+    font-family: "times New Roman";
+      background-image: url("Dreamy Princess Reading in the Clouds.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    line-height: 1.8;
+}
+
+
+nav {
+    background-color: #75447f;
+    padding: 16px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav h2 {
+    color: white;
+    font-size: 27px;
+}
+
+.links a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 9px 17px;
+    margin: 3px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.links a:hover
+ {
+    background-color: #f3acd9;
+    color: #70416f;
+}
+
+
+.home-page {
+    background-color: #e19bd3;
+}
+
+.hero {
+ 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 540px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 45px 6%;
+}
+
+.welcome {
+    width: 52%;
+    text-align: center;
+    padding: 15px;
+}
+
+.welcome h1 {
+    color: #783d83;
+    font-size: 37px;
+    margin-bottom: 18px;
+    text-shadow: 1px 1px 4px white;
+}
+
+.welcome p {
+    color: #70416f;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 4px white;
+}
+
+.main-btn {
+    display: inline-block;
+    background-color: #c45ca9;
+    color: white;
+    text-decoration: none;
+    padding: 12px 23px;
+    border-radius: 30px;
+    margin: 6px;
+    transition: 0.3s;
+}
+
+.main-btn:hover {
+    background-color: #914b91;
+    transform: translateY(-3px);
+}
+
+.second-btn {
+    background-color: #8755a1;
+}
+
+
+.welcome-section {
+    background-color:transparent;
+    text-align: center;
+    padding: 35px 6% 45px;
+}
+
+.welcome-section h2 {
+    color: #75447f;
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+
+.home-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.home-card {
+    background-color: #fff5fb;
+    border: 2px solid #e9a9d9;
+    border-radius: 23px;
+    padding: 22px;
+    width: 260px;
+    transition: 0.3s;
+}
+
+.home-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px #d8a1d1;
+}
+
+.home-card h3 {
+    color: #a34c91;
+    margin: 8px 0;
+}
+
+.emoji {
+    font-size: 43px;
+}
+
+
+.footer {
+    background-color: #75447f;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+ 
+    
+
+    .hero {
+        min-height: 520px;
+        justify-content: center;
+        background-position: center;
+        padding: 25px 12px;
+         
+    }
+
+    .welcome {
+        width: 100%;
+    }
+
+    .welcome h1 {
+        font-size: 27px;
+    }
+
+    .welcome p {
+        font-size: 16px;
+    }
+
+
+
+.stories-page {
+    background-image: url("pages-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+.stories-heading {
+    text-align: center;
+    padding: 40px 15px 25px;
+}
+
+.stories-heading h1 {
+    color: #794581;
+    font-size: 34px;
+    text-shadow: 1px 1px 4px white;
+}
+
+.stories-heading p {
+    color: #70416f;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.story-container {
+    width: 88%;
+    max-width: 1050px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+
+.story-category {
+    background-color: rgba(255, 245, 253, 0.90);
+    border: 2px solid #dfa9dc;
+    border-radius: 22px;
+    padding: 22px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(120, 65, 130, 0.15);
+}
+
+.story-category h2 {
+    color: #914b91;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+.story-category details {
+    background-color: #f8e3f5;
+    border: 1px solid #e4b5df;
+    border-radius: 13px;
+    padding: 13px 18px;
+    margin-bottom: 12px;
+}
+
+.story-category summary {
+    color: #70416f;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.story-category summary:hover {
+    color: #c05b9f;
+}
+
+.story-category details p {
+    color: #624765;
+    font-size: 16px;
+    line-height: 2;
+    padding: 12px 5px 3px;
+    border-top: 1px dashed #d5a0ce;
+    margin-top: 12px;
+}
+
+
+
+
+    .story-container {
+        width: 94%;
+    }
+
+    .story-category {
+        padding: 15px;
+    }
+
+    .story-category h2 {
+        font-size: 21px;
+    }
+
+
+.characters-page {
+    background-image: url("pages-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+.characters-heading {
+    text-align: center;
+    padding: 40px 15px 25px;
+}
+
+.characters-heading h1 {
+    color: #794581;
+    font-size: 34px;
+    text-shadow: 1px 1px 4px white;
+}
+
+.characters-heading p {
+    color: #70416f;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.characters-container {
+    width: 80%;
+    max-width: 2000px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.character-section {
+    background-color: rgba(255, 245, 253, 0.90);
+    border: 2px solid #dfa9dc;
+    border-radius: 22px;
+    padding: 25px;
+    margin-bottom: 28px;
+}
+
+.character-section h2 {
+    color: #914b91;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.character-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.character-card {
+    background-color: #fff5fb;
+    border: 2px solid #e9b6df;
+    border-radius: 20px;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.character-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 5px 15px rgba(120, 65, 130, 0.2);
+    border-color: #b66bb5;
+}
+
+.character-picture {
+    background-color: #f4d9ef;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.character-card h3 {
+    color: #914b91;
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+
+.character-card p {
+    color: #70416f;
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.character-card span {
+    display: inline-block;
+    background-color: #f1d4ed;
+    color: #814783;
+    padding: 5px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+
+
+    .characters-container {
+        width: 94%;
+    }
+
+    .character-section {
+        padding: 15px;
+    }
+
+
+
